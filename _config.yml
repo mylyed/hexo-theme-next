@@ -177,10 +177,11 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/yourname || fab fa-github
-  E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  Weibo: https://weibo.com/yourname || fab fa-weibo
-  Google: https://plus.google.com/yourname || fab fa-google
+  GitHub: https://github.com/mylyed || fab fa-github
+  码云: https://gitee.com/lil || fab fa-gitlab
+  微博: https://weibo.com/u/2168032422 || fab fa-weibo
+  知乎: https://www.zhihu.com/people/li-cai-40-13 || fa fa-book
+
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
@@ -888,7 +889,7 @@ vendors:
   # Internal version: 5.13.0
   # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
-  fontawesome:
+  fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
 
   # MathJax
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
